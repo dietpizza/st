@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Operator Mono:Medium:size=13:antialias=true:autohint=true";
-static int borderpx = 1;
+static char *font = "SauceCodePro Nerd Font:Semibold:size=13:antialias=true:autohint=true";
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -26,9 +26,9 @@ char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
-static float cwscale = 1.01;
-static float chscale = 1.0;
-static int cyoffset = 0;
+static int cwex = 0;
+static int chex = 2;
+static int cyoffset = 1;
 
 /*
  * word delimiter string

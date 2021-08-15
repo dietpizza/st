@@ -1001,8 +1001,8 @@ xloadfonts(const char *fontstr, double fontsize)
 	}
 
 	/* Setting character width and height. */
-	win.cw = ceilf(dc.font.width * cwscale);
-	win.ch = ceilf(dc.font.height * chscale);
+	win.cw = dc.font.width + cwex;
+	win.ch = dc.font.height + chex;
     win.cyo = cyoffset;
 
 	FcPatternDel(pattern, FC_SLANT);
