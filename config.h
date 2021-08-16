@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "SauceCodePro Nerd Font:Semibold:size=13:antialias=true:autohint=true";
-static int borderpx = 0;
+static char *font = "Source Code Pro:Semibold:size=13:autohint=true";
+static int borderpx = 2;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -27,8 +27,8 @@ char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
 static int cwex = 0;
-static int chex = 2;
-static int cyoffset = 1;
+static int chex = 0;
+static int cyoffset = 0;
 
 /*
  * word delimiter string
