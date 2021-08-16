@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Source Code Pro:Semibold:size=13:autohint=true";
+static char *font = "Cascadia Code:Regular:size=13:autohint=true";
 static int borderpx = 2;
 
 /*
